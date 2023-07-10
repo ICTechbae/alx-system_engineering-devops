@@ -1,2 +1,2 @@
 #!/bin/bash
-decoded_message=$(decode_acrostic "$acrostic_file") echo "$decoded_message"
+cut -c 1 | paste -s -d "
